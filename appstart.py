@@ -9,8 +9,8 @@ controller = Controller(repo)
 
 ui = Ui(controller)
 
-repo.store(Sentence("N-avem saltele"))
-repo.store(Sentence("Du-te si bateti coasa"))
-repo.store(Sentence("blana urs yeah"))
+repo.store(Sentence("Baloane cu apa"))
+repo.store(Sentence("De ce iesi?"))
+repo.store(Sentence("Blana de urs"))
 
 ui.MainMenu()
